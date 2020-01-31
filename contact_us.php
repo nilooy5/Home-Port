@@ -21,18 +21,12 @@
 			</tr>
 			<tr>
 				
-				<td>Md. Sakibul Alam</td>
-				<td>1420604042</td>
-				<td>sakibul.alam@northsouth.edu</td>
+				<td>Md. Maruf Khan</td>
+				<td>1320364042</td>
+				<td>maruf.khan@northsouth.edu</td>
 				
 			</tr>
-			<tr>
-				
-				<td>Ashikur Rahman</td>
-				<td>1321409042</td>
-				<td>Ashikur.rahman13@northsouth.edu</td>
-				
-			</tr>
+
 
 		<style>
 			table {

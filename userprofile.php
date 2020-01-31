@@ -3,7 +3,7 @@
 	include_once"connection.php";
 
 	/*session_start();*/
-	if(!$_SESSION['id1370950_demo_cse311']){
+	if(!$_SESSION['demo_cse311']){
 		header('location:login.php');
 	}
 

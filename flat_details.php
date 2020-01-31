@@ -19,7 +19,7 @@
 	<div  ><strong> </strong>
 		<div >
 
-			<img style="height: auto;width: 60%;" src="apartment_images/<?php echo $aptdetails['image']?>">
+			<img style="height: auto;width: 800px;" src="apartment_images/<?php echo $aptdetails['image']?>">
 
 		</div>
 		

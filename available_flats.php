@@ -1,3 +1,4 @@
+
 <?php
 	 	include_once "includes/header.php";
 	 	include_once "connection.php";
@@ -7,7 +8,7 @@
 
 <?php
 
-if(!$_SESSION['id1370950_demo_cse311'])
+if(!$_SESSION['demo_cse311'])
 {
 	header ('location:login.php');
 }
@@ -20,7 +21,8 @@ if(!$_SESSION['id1370950_demo_cse311'])
 		d.flat_size,d.num_of_rooms, d.additional_info 
 		FROM available_flats f 
 		join members m on m.member_id =f.owner_id 
-		join flat_details d on d.flat_id=f.flat_id");
+		join flat_details d on d.flat_id=f.flat_id")
+	    
 	/*foreach ($apartments as $apartment ) {
 		print_r($apartment);
 		# code...
@@ -49,7 +51,12 @@ if(!$_SESSION['id1370950_demo_cse311'])
 				<td><?php echo $apartment['flat_rent'] ?></td>
 				<td><?php echo $apartment['flat_location'] ?></td>
 				<td><?php echo $apartment['flat_city'] ?></td>
-				<td><?php if($apartment['available']==1){?> <a href="flat_details.php?id=<?php echo $apartment['flat_id'];?>">Show Details</a><?php } else{echo "NOT AVAILABLE"; } ?></td>
+				<td><?php if($apartment['available']==1)
+					{
+						?> <a href="flat_details.php?id=<?php echo $apartment['flat_id'];?>">"Show Details"</a><?php
+					 } else
+					 {echo "NOT AVAILABLE"; } ?>
+				</td>
 				<td><?php echo $apartment['first_name'].' '.$apartment['last_name'] ?></td>
 				<td><a href="reserve_flat.php?id=<?php echo $apartment['flat_id'];?>">Reserve Flat</a></td>
 			</tr><?php

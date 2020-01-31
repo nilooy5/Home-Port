@@ -2,15 +2,15 @@
 	include_once"includes/header.php";
 	include_once"connection.php";
 
-	//image prepare
+	//demo
+    
     
 
 
 
 // data process
 	$bidder_username=$_SESSION['username'];
-	$apartment_ID=$_GET['id'];
-
+	$apartment_ID=$_SESSION['flat_id'];
 
 
 
@@ -21,6 +21,9 @@
 			);
 	";
 ?>
+	
+
+
 
 <?php 
 	if (mysqli_query($con,$sqlbid)) 
@@ -30,7 +33,7 @@
 
 		<div style="width: 70%; margin: 0 auto;">
 			<div><img src="images/success.png" alt="Success Icon" style="float: left;width: 25%;"/></div>
-			<div><h1 style="float: right; font-size: 1.5em;">Your reseervation has been posted!</h1></div>
+			<div><h1 style="float: right; font-size: 1.5em;">Query Ran successfully!<br>work in progress :( <br>will be available soon!</h1></div>
 		</div>
 
 		<?php

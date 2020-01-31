@@ -43,7 +43,7 @@
 	$ownr_id = mysqli_fetch_assoc($row1);
 	$owner_id=$ownr_id['member_id'];
 
-
+//adding boolean values ...new change here 
 	$sqlf= "INSERT INTO available_flats
 	(owner_id,owner_username,flat_city,flat_location,flat_rent)
 		VALUES('".$owner_id."',
@@ -51,6 +51,7 @@
 			'".$_POST['flat_city']."',
 			'".$_POST['flat_location']."',
 			'".$_POST['flat_rent']."'
+
 			);
 	";
 ?>

@@ -1,3 +1,4 @@
+
 <?php
 	 	include_once "includes/header.php";
 	 	include_once "connection.php";
@@ -7,7 +8,7 @@
 
 <?php
 
-if(!$_SESSION['id1370950_demo_cse311'])
+if(!$_SESSION['demo_cse311'])
 {
 	header ('location:login.php');
 }
@@ -26,6 +27,7 @@ if(!$_SESSION['id1370950_demo_cse311'])
 						<option value="dhaka">Dhaka</option>
 						<option value="chittagong">Chittagong</option>
 						<option value="barisal">Barisal</option>
+						<option value="rajshahi">Rajshahi</option>
 					</select> 
 				</p> 
 				<p>
@@ -49,7 +51,7 @@ if(!$_SESSION['id1370950_demo_cse311'])
 					<strong>Number of Rooms</strong><br>
 					<input id="text5" type="text" name="num_of_rooms"/>
 				</p> 
-				<div><strong>Upload Image</strong>
+				<div><strong>Upload Application(Formate: .pdf,.doc)</strong>
     			<input type="file" name="image" id="image">
     			</div>
 				<p>
@@ -58,11 +60,15 @@ if(!$_SESSION['id1370950_demo_cse311'])
 				</p>  
 				<br>
 				
-				<p>
-					<button class="button submit">Sumbit</button>
-				</p>
+				
 					 		
 	 		</div>
+	 		<div class="right">
+	 			<p>
+					<button class="button submit">Sumbit</button>
+				</p>
+	 		</div>
+	 		
 	 	</form>
 
 

@@ -2,7 +2,7 @@
 	<html>
 	<head>
 		<meta charset="utf-8">
-		<title>HOME PORT | Sign Up</title>
+		<title>APARTMENT MANAGEMENT | Sign Up</title>
 		<link rel="icon" type="image/gif" href="favicon.gif" />
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
@@ -22,7 +22,7 @@
 	 
 		
 				
-		<h1 class='elegantshadow'>HOME PORT</h1>
+		<h1 class='elegantshadow'>APARTMENT MANAGEMENT</h1>
 
 
 

@@ -33,6 +33,9 @@
 						<option value="dhaka">Dhaka</option>
 						<option value="chittagong">Chittagong</option>
 						<option value="barisal">Barisal</option>
+						<option value="rajshahi">Rajshahi</option>
+
+
 					</select> 
 				</p> 
 			 	
@@ -64,6 +67,7 @@
 					<button class="button submit">Update!</button>
 				</p>
 			</div>	
+			
 		</form>
 
 
