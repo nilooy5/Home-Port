@@ -51,7 +51,7 @@ if(!$_SESSION['demo_cse311'])
 					<strong>Number of Rooms</strong><br>
 					<input id="text5" type="text" name="num_of_rooms"/>
 				</p> 
-				<div><strong>Upload Application(Formate: .pdf,.doc)</strong>
+				<div><strong>Upload Image</strong>
     			<input type="file" name="image" id="image">
     			</div>
 				<p>

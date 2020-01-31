@@ -26,7 +26,13 @@
 				<td>maruf.khan@northsouth.edu</td>
 				
 			</tr>
-
+			<tr>
+				
+				<td>Ashikur Rahman</td>
+				<td>1321409042</td>
+				<td>Ashikur.rahman13@northsouth.edu</td>
+				
+			</tr>
 
 		<style>
 			table {
